@@ -2,8 +2,9 @@
 int main(){
 	char hovaten[50];
 	printf("Nhap ho va ten:");
-	scanf ("%[^\n]",hovaten) ;
-	printf("Xin chao %s\n",hovaten);
+	gets(hovaten);
+	printf("Xin chao %s",hovaten);
+        fflush(stdin);
 	return 0;
 }
  
